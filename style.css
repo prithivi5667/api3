@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.srn {
+  font-family: "Orbitron", sans-serif;
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
+
+.card {
+  box-shadow: 0px 0px 25px #d3888854;
+  border-radius: 12px;
+}
+
+img {
+  border-radius: 12px !important;
+  padding: 2px;
+}
+
+.alertBox {
+  width: 20vw;
+}
